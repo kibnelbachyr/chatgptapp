@@ -1,0 +1,8 @@
+services:
+  streamlit:
+    image: aaaaaa.azurecr.io/chatgptapp
+    environment:
+      OPENAI_API_BASE: https://*******.openai.azure.com/
+      OPENAI_API_KEY: 0fea*****************9fba
+    ports:
+      - '80:8501'
